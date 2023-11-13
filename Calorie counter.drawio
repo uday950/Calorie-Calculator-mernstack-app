@@ -1,0 +1,205 @@
+<mxfile host="app.diagrams.net" modified="2020-10-11T11:30:04.485Z" agent="5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36" etag="dSvBbWGNQd0vNJqgd4rk" version="13.7.7" type="github">
+  <diagram id="BKDh_3cD9k_yjle4rncd" name="Page-1">
+    <mxGraphModel dx="965" dy="602" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="eonCqHthAiXEj6L1IQKT-1" value="&amp;lt;App&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="350" y="10" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-2" value="&amp;lt;Nav&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="349.5" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-3" value="Home" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="39.5" y="280" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-5" value="&amp;lt;Calorie calculator&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;getUserAPI&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="413.5" y="280" width="106.5" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-6" value="&amp;lt;Diet Calendar&amp;gt;&lt;br&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;getAllDayPlanAPI&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="470" y="395" width="130" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-7" value="&amp;lt;Login&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;loginAPI&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="560" y="280" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-9" target="eonCqHthAiXEj6L1IQKT-11" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-9" value="search Bar&lt;br&gt;&amp;lt;Search /&amp;gt;&lt;br&gt;Call&amp;nbsp;&lt;span style=&quot;color: rgb(166 , 226 , 46) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;searchAPI&lt;/span&gt;&lt;br&gt;&lt;br&gt;props: searchResult, date" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9.5" y="400" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-11" value="&amp;lt;SearchResult /&amp;gt;&lt;br&gt;Map through Search Result&lt;br&gt;&lt;br&gt;props: foodDeatial, foodId, date" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9.5" y="495" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-13" value="&amp;lt;DrawFoodResultToDom /&amp;gt;&lt;br&gt;Draw Search Result in a list&lt;br&gt;&lt;br&gt;props: foodDeatial, date,&amp;nbsp;&lt;br&gt;showModal, setShowModal&amp;nbsp;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9.5" y="595" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-14" value="&amp;lt;DayPlanModal /&amp;gt;&lt;br&gt;Split foodDeatils&lt;br&gt;Call&amp;nbsp;&lt;span style=&quot;color: rgb(166 , 226 , 46) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;createDayPlanAPI &amp;amp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: rgb(166 , 226 , 46) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;createFoodDetailsAPI&lt;br&gt;&lt;br&gt;&lt;/span&gt;props: foodId, date,&amp;nbsp;&lt;br&gt;OnChangeDayPlanFormValue&amp;nbsp;&lt;span style=&quot;color: rgb(166 , 226 , 46) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9.5" y="695" width="170" height="109" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-15" value="&amp;lt;DayPlanForm /&amp;gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 10px&quot;&gt;Call OnChangeDayPlanFormValue&lt;br&gt;&lt;/font&gt;&lt;br&gt;select date, meal and servingSize" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="9.5" y="825" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-11" target="eonCqHthAiXEj6L1IQKT-13" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289.5" y="645" as="sourcePoint" />
+            <mxPoint x="339.5" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-25" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-13" target="eonCqHthAiXEj6L1IQKT-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="289.5" y="715" as="sourcePoint" />
+            <mxPoint x="339.5" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-27" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="eonCqHthAiXEj6L1IQKT-15" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="94.5" y="805" as="sourcePoint" />
+            <mxPoint x="229.5" y="815" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-28" value="" style="endArrow=none;html=1;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="260" as="sourcePoint" />
+            <mxPoint x="760" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-31" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-1" target="OkDBnsq3V6Ht3Wj3ieDL-4" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="410" y="180" as="sourcePoint" />
+            <mxPoint x="410" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-32" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="eonCqHthAiXEj6L1IQKT-40" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="302.5" y="263" as="sourcePoint" />
+            <mxPoint x="307.5" y="283" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-33" value="" style="endArrow=classic;html=1;" parent="1" target="eonCqHthAiXEj6L1IQKT-3" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="99.5" y="260" as="sourcePoint" />
+            <mxPoint x="469.5" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-35" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="419.5" y="360" as="sourcePoint" />
+            <mxPoint x="409.5" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-40" value="select Date&lt;br&gt;&amp;lt;FoodDiary/&amp;gt;&lt;br&gt;Call&amp;nbsp;&lt;span style=&quot;color: rgb(166 , 226 , 46) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;getDayPlanAPI&lt;/span&gt;&lt;br&gt;based on selected date&lt;br&gt;&lt;br&gt;props: dayPlanResult" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="283" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-43" value="&amp;lt;FoodDiaryTable/&amp;gt;&lt;br&gt;Call&amp;nbsp;&lt;span style=&quot;color: rgb(166 , 226 , 46) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;getFoodDetailsAPI&lt;/span&gt;&lt;br&gt;to get details per meal&lt;br&gt;&lt;br&gt;map through meal details and show the result&lt;br&gt;&lt;br&gt;props: mealDetailsB, L, D, S" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="403" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-45" value="&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 11px&quot;&gt;&amp;lt;DrawFoodDiaryTableToDom /&amp;gt;&lt;br&gt;call&amp;nbsp;&lt;span style=&quot;color: rgb(166 , 226 , 46) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 12px&quot;&gt;deletfoodAPI&lt;/span&gt;&lt;br&gt;&lt;/font&gt;&lt;br&gt;Calculate total calories, fat..&lt;br&gt;&lt;br&gt;Map through each meal and draw table into the dom&lt;br&gt;&lt;br&gt;props: addMealSearchModal,&lt;br&gt;setAddMealSearchModal" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="553" width="170" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-46" value="&amp;lt;SearchModal /&amp;gt;&lt;br&gt;&lt;br&gt;props: showModal, hideModal, getDayPlanAPI" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="217.5" y="723" width="102.5" height="107" as="geometry" />
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-47" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-40" target="eonCqHthAiXEj6L1IQKT-43" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="493" as="sourcePoint" />
+            <mxPoint x="447.5" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-48" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-43" target="eonCqHthAiXEj6L1IQKT-45" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="493" as="sourcePoint" />
+            <mxPoint x="447.5" y="443" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-49" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-45" target="eonCqHthAiXEj6L1IQKT-46" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="397.5" y="683" as="sourcePoint" />
+            <mxPoint x="447.5" y="633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-54" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="eonCqHthAiXEj6L1IQKT-46" target="eonCqHthAiXEj6L1IQKT-9" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="379.5" y="610" as="sourcePoint" />
+            <mxPoint x="199.5" y="820" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="269" y="860" />
+              <mxPoint x="200" y="860" />
+              <mxPoint x="199.5" y="390" />
+              <mxPoint x="94.5" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eonCqHthAiXEj6L1IQKT-55" value="" style="endArrow=classic;html=1;exitX=0.415;exitY=1.01;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="78.45000000000005" y="381" as="sourcePoint" />
+            <mxPoint x="78.78813559322043" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-2" value="&amp;lt;Hamburger Menue&amp;gt;&lt;br&gt;&lt;br&gt;props: loggedIn, setLoggedIn" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="139.5" y="170" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-3" value="" style="endArrow=classic;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="eonCqHthAiXEj6L1IQKT-2" target="OkDBnsq3V6Ht3Wj3ieDL-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="399.5" y="390" as="sourcePoint" />
+            <mxPoint x="449.5" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-4" value="&amp;lt;App Context&amp;gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="349.5" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-5" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="OkDBnsq3V6Ht3Wj3ieDL-4" target="eonCqHthAiXEj6L1IQKT-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="420" y="80" as="sourcePoint" />
+            <mxPoint x="419.5" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-6" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="eonCqHthAiXEj6L1IQKT-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="467" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-7" value="&amp;lt;SignUp&amp;gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;color: rgb(248 , 248 , 242) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; line-height: 18px&quot;&gt;&lt;span style=&quot;color: #a6e22e&quot;&gt;signUpAPI&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="620" y="395" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-8" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="eonCqHthAiXEj6L1IQKT-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="535" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-10" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="eonCqHthAiXEj6L1IQKT-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="609" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-11" value="" style="endArrow=classic;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="OkDBnsq3V6Ht3Wj3ieDL-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="679" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-13" value="&amp;lt;DeleteModal /&amp;gt;&lt;br&gt;&lt;br&gt;props: showModal, &lt;br&gt;setShowModal hideModal, setAcceptanceDelete,&lt;br&gt;deleteFood" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="724" width="130" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-14" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="eonCqHthAiXEj6L1IQKT-45" target="OkDBnsq3V6Ht3Wj3ieDL-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="780" as="sourcePoint" />
+            <mxPoint x="450" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-17" value="&amp;lt;Profile&amp;gt;&lt;br&gt;call&amp;nbsp;&lt;br&gt;&lt;span style=&quot;color: rgb(166 , 226 , 46) ; background-color: rgb(39 , 40 , 34) ; font-family: &amp;#34;menlo&amp;#34; , &amp;#34;monaco&amp;#34; , &amp;#34;courier new&amp;#34; , monospace&quot;&gt;updateUserAPI&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="700" y="280" width="120" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="OkDBnsq3V6Ht3Wj3ieDL-18" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="OkDBnsq3V6Ht3Wj3ieDL-17">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="760" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
